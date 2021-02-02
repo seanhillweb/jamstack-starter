@@ -55,6 +55,8 @@ If you don't have an existing place to host your site you should have a look at 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scottishstoater/jamstack-web-starter)
 
+---
+
 ### Additional Information
 
 #### Attributions
