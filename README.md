@@ -1,16 +1,8 @@
-Based off of: https://github.com/scottishstoater/jamstack-web-starter
+# JAMStack Starter
 
-<p align="center">
-	<img src="/src/static/icon.svg" alt="Rocket icon" width="56" align="center" />
-</p>
+## Contents
 
-<p align="center"><a href="https://webstarter.chriscollins.me"><strong>JAMStack Web Starter</strong></a></p>
-
-<p align="center"><em>Eleventy · Tailwind CSS · HTML · CSS · Javascript</em></p>
-
-<p align="center"><a href="https://app.netlify.com/sites/webstarter/deploys"><img src="https://api.netlify.com/api/v1/badges/27819fce-1c2b-4f30-ab30-5c0769f9734e/deploy-status"></a></p>
-
-## Contents 	
+[TOC]
 
 - [Project overview](#project-overview)
 - [Getting started](#getting-started)
@@ -73,10 +65,21 @@ If you don't have an existing place to host your site you should have a look at 
 
 ---
 
-#### Credits 
+#### Credits & Attributions
+
+<p align="center">
+	<img src="/src/static/icon.svg" alt="Rocket icon" width="56" align="center" />
+</p>
+
+<p align="center"><a href="https://webstarter.chriscollins.me"><strong>Built off of the intial JAMStack Web Starter by Chris Collins</strong></a></p>
+
+<p align="center"><em>Eleventy · Tailwind CSS · HTML · CSS · Javascript · AlpineJS</em></p>
+
+<p align="center"><a href="https://app.netlify.com/sites/webstarter/deploys"><img src="https://api.netlify.com/api/v1/badges/27819fce-1c2b-4f30-ab30-5c0769f9734e/deploy-status"></a></p>
 
 - [Eleventy](https://11ty.io)
 - [TailwindCSS](https://tailwindcss.com/)
+- [AlpineJS](https://github.com/alpinejs/alpine)
 - [PostCSS](https://github.com/postcss)
 	- Autoprefixer
 	- PostCSS Import
