@@ -1,3 +1,5 @@
+Based off of: https://github.com/scottishstoater/jamstack-web-starter
+
 <p align="center">
 	<img src="/src/static/icon.svg" alt="Rocket icon" width="56" align="center" />
 </p>
