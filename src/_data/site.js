@@ -1,10 +1,10 @@
 module.exports = {
-  "title": "Web Starter",
-  "description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
+  "title": "seanhillweb JAMStack Web Starter",
+  "description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, AlpineJS, PurgeCSS and PostCSS",
   "url": "https://webstarter.chriscollins.me",
-  "author": "Chris Collins",
+  "author": "Sean Hill",
   "meta_data": {
-    "twitter": "@scottishstoater",
+    "twitter": "@seanhillweb",
     "default_social_image": "/static/default_social_image.jpg"
   },
   "env": process.env.ELEVENTY_ENV === 'production'
