@@ -1,8 +1,8 @@
-# JAMStack Starter
+# Jamstack Starter
 
-<p align="center"><a href="https://seanhillweb.com"><strong>JAMStack Starter</strong></a></p>
+<p align="center"><a href="https://seanhillweb.com"><strong>Jamstack Starter</strong></a></p>
 
-<p align="center"><em>Eleventy · Tailwind CSS · AlpineJS · HTML · CSS · Javascript</em></p>
+<p align="center"><em>Eleventy · Tailwind CSS · AlpineJS · Webpack</em></p>
 
 <p align="center"><a href="https://app.netlify.com/sites/webstarter/deploys"><img src="https://api.netlify.com/api/v1/badges/27819fce-1c2b-4f30-ab30-5c0769f9734e/deploy-status"></a></p>
 
@@ -46,6 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 ## Getting Started
+
+### Prerequisites
 
 ### Install dependencies
 

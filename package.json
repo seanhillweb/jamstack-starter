@@ -1,17 +1,17 @@
 {
 	"name": "jamstack-starter",
 	"version": "1.1.1",
-	"description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
+	"description": "Jamstack starter project. Built with Eleventy, Tailwind, AlpineJS, and Webpack",
 	"scripts": {
 		"clean": "del dist",
-		"dev:postcss": "postcss src/assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose",
+		"dev:postcss": "postcss src/assets/stylesheets/*.css -o src/static/app.min.css --watch --verbose",
 		"dev:scripts": "webpack --watch --config webpack.config.js",
 		"dev:11ty": "eleventy --serve --watch",
-		"build:postcss": "NODE_ENV=production postcss src/assets/stylesheets/app.css -o src/includes/app.compiled.css",
+		"build:postcss": "NODE_ENV=production postcss src/assets/stylesheets/app.css -o src/includes/app.min.css",
 		"build:11ty": "ELEVENTY_ENV=production eleventy",
-		"build:scripts": "NODE_ENV=production webpack -p --config webpack.config.js",
-    "lint": "prettier --check *",
-    "format": "prettier --write *",
+		"build:scripts": "NODE_ENV=production webpack --mode production --config webpack.config.js",
+		"lint": "prettier --check *",
+		"format": "prettier --write *",
 		"start": "run-p dev:* --print-label",
 		"build": "run-s clean build:* --print-label"
 	},
@@ -36,7 +36,6 @@
 		"webpack-cli": "^5.1.1"
 	},
 	"dependencies": {
-		"alpinejs": "^3.12.1",
-		"waypoints": "^4.0.1"
+		"alpinejs": "^3.12.1"
 	}
 }

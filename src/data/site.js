@@ -1,7 +1,7 @@
 module.exports = {
-  "title": "seanhillweb JAMStack Web Starter",
-  "description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, AlpineJS, PurgeCSS and PostCSS",
-  "url": "https://webstarter.chriscollins.me",
+  "title": "JAMStack Starter",
+  "description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, AlpineJS, PurgeCSS, PostCSS and Webpack",
+  "url": "https://seanhillweb.com",
   "author": "Sean Hill",
   "meta_data": {
     "twitter": "@seanhillweb",
