@@ -1,6 +1,6 @@
 
-@import 'utils/_tailwind.css';
-@import 'utils/_accessibility.css';
+@import 'utils/tailwind.css';
+@import 'utils/accessibility.css';
 
 /* purgecss start ignore */
 
