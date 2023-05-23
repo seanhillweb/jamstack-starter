@@ -3,7 +3,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 module.exports = {
     mode: isProduction ? 'production' : 'development',
     entry: {
-        app: __dirname + '/src/_assets/scripts/app.js',
+        app: __dirname + '/src/assets/scripts/app.js',
     },
     output: {
         path: isProduction ? __dirname + '/dist/static' : __dirname + '/src/static', // `/dist` is the destination
