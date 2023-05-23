@@ -3,8 +3,11 @@ const transforms = require('./utils/transforms.js')
 const collections = require('./utils/collections.js')
 
 module.exports = function (eleventyConfig) {
+  
     // Folders to copy to build dir (See. 1.1)
     eleventyConfig.addPassthroughCopy("src/static");
+    eleventyConfig.addPassthroughCopy({ "src/_assets/images": "assets/images" });
+    eleventyConfig.addPassthroughCopy({ "src/_assets/icons": "assets/icons" });
 
     // Filters 
     Object.keys(filters).forEach((filterName) => {
