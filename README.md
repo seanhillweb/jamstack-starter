@@ -1,12 +1,6 @@
 # JAMStack Starter
 
-Based off of: https://github.com/scottishstoater/jamstack-web-starter
-
-<p align="center">
-	<img src="/src/static/icon.svg" alt="Rocket icon" width="56" align="center" />
-</p>
-
-<p align="center"><a href="https://webstarter.chriscollins.me"><strong>JAMStack Web Starter</strong></a></p>
+<p align="center"><a href="https://seanhillweb.com"><strong>JAMStack Starter</strong></a></p>
 
 <p align="center"><em>Eleventy · Tailwind CSS · AlpineJS · HTML · CSS · Javascript</em></p>
 
@@ -39,6 +33,15 @@ Based off of: https://github.com/scottishstoater/jamstack-web-starter
 - Webpack used to bundle scripts
 - Scripts optimised for production
 - Document `<head>` crafted using [htmlhead.dev](https://htmlhead.dev)
+
+---
+
+## CHANGLEOG
+
+All notable changes to this project will be documented in the CHANGELOG.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
@@ -78,6 +81,7 @@ If you don't have an existing place to host your site you should have a look at 
 
 #### Credits 
 
+- [Inspiration](https://github.com/scottishstoater/jamstack-web-starter)
 - [Eleventy](https://11ty.io)
 - [TailwindCSS](https://tailwindcss.com/)
 - [AlpineJS](https://github.com/alpinejs/alpine)
